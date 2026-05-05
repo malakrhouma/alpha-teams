@@ -1,0 +1,25 @@
+# Fichiers Python générés
+*.pyc
+*.pyo
+*.egg-info
+__pycache__/
+
+Page10
+
+# Fichiers spécifiques à l'environnement virtuel
+.venv/
+venv/
+env/
+ENV/
+*/.venv
+# Fichiers d'environnement
+.env
+# Fichiers temporaires et logs
+*.log
+*.tmp
+*.swp
+# Fichiers spécifiques à l'IDE
+.idea/
+*.iml
+# Fichiers système
+.DS_Store
