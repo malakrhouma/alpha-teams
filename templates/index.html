@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Informatique</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <h2>📚 Matières</h2>
+
+            <ul>
+                <li>Python</li>
+                <li>Algorithmique</li>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <li>Bases de données</li>
+                <li>Réseaux</li>
+                <li>Intelligence Artificielle</li>
+            </ul>
+        </div>
+
+        <div class="chat-container">
+
+            <div class="header">
+                <h1>💻 Chatbot de Révision</h1>
+                <p>Assistant d’enseignement des bases de l’informatique</p>
+            </div>
+
+            <div id="chat-box" class="chat-box">
+
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <strong>Bot :</strong><br>
+                        Bonjour 👋  
+                        Je suis votre assistant informatique.
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="input-area">
+                <input
+                    type="text"
+                    id="user-input"
+                    placeholder="Posez une question..."
+                >
+
+                <button id="send-btn">
+                    Envoyer
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
